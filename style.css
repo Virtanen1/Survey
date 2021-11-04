@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#main {
+    display: flex;
+    background: url(img/adeolu-eletu-unRkg2jH1j0-unsplash.jpg);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-size: cover;
+
+}
+#title {
+    display: flex;
+    justify-content: center;
+}
+#container {
+    display: flex;
+     background-color:rgba(0, 0, 0, 0.315);
+    width: 500px;
+     justify-content:flex-start;
+     margin-top: 100px;
+     flex-direction: column;
+     padding: 50px 20px;
+     font-family: 'Open Sans', sans-serif;
+     row-gap: 20px;
+     color: white;
+   
+    
+}
+#checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#role {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

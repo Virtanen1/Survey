@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="main">
+    <header>
+        <h1 id="title"> Survey Form </h1>
+    </header>
+    <div>
+        <p id="description">This is a application for my Counter Strike team, please fill out this survey</p>
+    </div>
+    <form id="survey-form">
+
+        <div id="container">
+            <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" placeholder="Type in your name" required>
+
+            <label id="email-label" for="email"> Email</label>
+            <input id="email" type="email" placeholder="Type in your email" required>
+
+            <label id="number-label" for="number">Age (optional)</label>
+            <input type="number" id="number" placeholder="Enter you age" min="13" max="99">
+
+            <p>Do you play counter strike: Global Offensive</p>
+            <select id="dropdown" name="role" required>
+
+                <option disabled selected value></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <p id="rank"> What rank are you? (DMG required)</p>
+            <div id="checkbox">
+                <label>
+                    <input name="attribute" value="Ranks" type="checkbox" class="input-checkbox" />
+                    Dmg</label>
+
+                <label><input name="attribute" value="Ranks" type="checkbox" class="input-checkbox" /> LE</label>
+                <label><input name="attribute" value="Ranks" type="checkbox" class="input-checkbox" /> LEM</label>
+                <label><input name="attribute" value="Ranks" type="checkbox" class="input-checkbox" /> Supreme</label>
+                <label> <input name="attribute" value="Ranks" type="checkbox" class="input-checkbox" /> Global
+                    Elite</label>
+            </div>
+
+            <p id="team"> Are you interested in being in a professional team?</p>
+            <input type="text" placeholder="" required>
+
+            <p id="Gun"> What weapon do you play the most</p>
+            <input type="text" placeholder="" required>
+
+            <p id="role"> What role would you like to play</p>
+            <div id="role">
+                <label> <input name="attribute" value="Ranks" type="radio" class="input-checkbox" />Sniper</label>
+                <label> <input name="attribute" value="Ranks" type="radio" class="input-checkbox" />Pusher</label>
+            </div>
+            <textarea>Thankyou for filling out this survey!</textarea>
+
+            <button id="submit"> Submit</button>
+    </form>
+
+
+
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
